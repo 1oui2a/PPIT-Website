@@ -1,19 +1,22 @@
 :root {
-    --puce_pink: #D8839E;
-    --gunmetal: #212A30;
-    --honolulu_blue: #197BBD;
-    --floral_white: #FEF8EC;
+    --white: #F5F5F5;
+    --red: #C02138;
+    --dark_red: #7D262F;
+    --black: #120304;
 }
 
 /* HEADER */
-.header-nav {
-    background-color: var(--gunmetal);
-    color: var(--floral_white);
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    background-color: var(--dark_red);
+    color: var(--white);
     padding: 1rem;
     text-align: center;
 }
 
-.header-nav h1 {
+header h1 {
     margin: 0;
 }
 
@@ -24,29 +27,29 @@
 }
 
 .header-nav a {
-    color: var(--floral_white);
+    color: var(--white);
     text-decoration: none;
 }
 
 .header-nav a:hover {
-    color: var(--honolulu_blue);
+    color: var(--red);
 }
 
 /* FOOTER */
 .footer-nav {
-    background-color: var(--gunmetal);
-    color: var(--floral_white);
+    background-color: var(--dark_red);
+    color: var(--white);
     padding: 1rem;
     text-align: center;
 }
 
 .footer-nav a {
-    color: var(--floral_white);
+    color: var(--white);
     text-decoration: none;
 }
 
 .footer-nav a:hover {
-    color: var(--honolulu_blue);
+    color: var(--red);
 }
 
 .social-media {
